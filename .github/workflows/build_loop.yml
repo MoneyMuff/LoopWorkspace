@@ -276,7 +276,8 @@ jobs:
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
-diff --git a/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift b/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift
+diff --git a/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift 
+b/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift
 index 62ab5fc..8976104 100644
 --- a/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift
 +++ b/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift
