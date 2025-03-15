@@ -252,7 +252,7 @@ jobs:
 
       # Customize Loop: Download and apply patches
       - name: Customize Loop
-        run: |diff --git a/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift b/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift
+        run: diff --git a/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift b/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift
 index 62ab5fc..8976104 100644
 --- a/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift
 +++ b/G7SensorKit/G7SensorKit/G7CGMManager/G7BluetoothManager.swift
